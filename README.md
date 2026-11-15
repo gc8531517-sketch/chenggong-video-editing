@@ -4,14 +4,14 @@
 
 ## 第一步 · 让助手帮你安装
 
-用 **Codex** 的话，复制整段发给它。
+用 **Codex 或 WorkBuddy**，都可以先把下面这段话和链接发给助手，让它帮你安装。
 
 ```text
 请帮我安装这个「橙功剪辑师」Skill。装好后告诉我怎么选用它。
 https://github.com/gc8531517-sketch/chenggong-video-editing/tree/main/.agents/skills/chenggong-video-editing
 ```
 
-用 **WorkBuddy** 的话，[下载专用 ZIP](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)，在技能页面选择「上传技能」。其他助手也可以先试着发上面的安装请求。[详细安装与排错](docs/usage.md)
+如果 WorkBuddy 提示需要手动导入，[下载专用 ZIP](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)，在技能页面选择「上传技能」。其他助手也可以先试着发同一段话。[详细安装与排错](docs/usage.md)
 
 ## 第二步 · 用一小段口播试剪
 

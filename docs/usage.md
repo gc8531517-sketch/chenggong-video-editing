@@ -12,11 +12,11 @@
 
 ### WorkBuddy
 
-1. [下载专用 ZIP](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)。
-2. 在左侧打开「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，选择下载下来的 ZIP。
-3. 新建任务，打开你放素材的文件夹。在聊天框点「＋ → 技能」，选择 `chenggong-video-editing`。
+复制[首页的安装请求](../README.md)，把话和链接一起发给 WorkBuddy。已在 WorkBuddy 5.11.3 验证过，同一请求可以从 GitHub 更新本机已安装的旧版。
 
-WorkBuddy 的自定义 ZIP 通过「上传技能」导入。[WorkBuddy 官方说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market#上传技能)
+如果助手提示要手动安装，[下载专用 ZIP](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)，在左侧点「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，选择这个 ZIP。[WorkBuddy 官方说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market#上传技能)
+
+装好后新建任务，打开你放素材的文件夹。在聊天框点「＋ → 技能」，选择 `chenggong-video-editing`。
 
 ### 其他助手
 
