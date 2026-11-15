@@ -1,0 +1,6 @@
+interface:
+  display_name: "橙功视频制作流程"
+  short_description: "从实际素材取关键帧，按确认范围剪口播，逐项核验成片"
+  default_prompt: "用 $chenggong-video-editing 剪这段口播。先读取本轮视频和要求，给我看真实关键帧，我确认后再导出并核验成片。"
+policy:
+  allow_implicit_invocation: true
