@@ -1,36 +1,27 @@
 # 橙功剪辑师
 
-这套 Skill 用真实关键帧和你确认剪辑范围，再制作和检查成片。它包含工作步骤和检查脚本，媒体处理由客户端能调用的本地工具完成。
+把口播原片和录屏交给 AI。它会把素材对到对应的台词上，先给你看关键帧，等你确认后再剪辑导出。口播成片默认带字幕。
 
-## 用 Codex？把这两行发给它
+## 第一步 · 让助手帮你安装
+
+用 **Codex** 的话，复制整段发给它。
 
 ```text
-请帮我安装这个「橙功剪辑师」Skill。装好后告诉我怎么在新聊天里选用它。
+请帮我安装这个「橙功剪辑师」Skill。装好后告诉我怎么选用它。
 https://github.com/gc8531517-sketch/chenggong-video-editing/tree/main/.agents/skills/chenggong-video-editing
 ```
 
-Codex 如果提示需要联网或写入技能目录，按界面提示操作。它确认装好后，开一个新聊天，输入 `$chenggong-video-editing`，选中「橙功视频制作流程」。如果列表里还找不到，重启 Codex 再试。
+用 **WorkBuddy** 的话，[下载专用 ZIP](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)，在技能页面选择「上传技能」。其他助手也可以先试着发上面的安装请求。[详细安装与排错](docs/usage.md)
 
-## 用 WorkBuddy？下载一个 ZIP
+## 第二步 · 用一小段口播试剪
 
-[下载 WorkBuddy 安装包](https://github.com/gc8531517-sketch/chenggong-video-editing/raw/refs/heads/main/chenggong-video-editing-workbuddy.zip)。在 WorkBuddy 左侧点「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」，选中这个 ZIP。装好后，在聊天框点「＋ → 技能」，选择 `chenggong-video-editing`。[WorkBuddy 官方说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market#上传技能)
+1. 在新聊天里选中「橙功视频制作流程」或 `chenggong-video-editing`，发一段短口播。有录屏的话一起发。
+2. 可以直接发下面这句话。
 
-用其他助手，也可以先把上面的安装请求发给它。能否直接安装，取决于它是否支持加载 Skill。下面的剪辑流程需要它能访问视频并调用剪辑工具。
+   > 请按我的口播把录屏放到对应的位置。先给我看关键帧，我确认后再剪。
 
-## 第一次剪辑
+3. 看完图片，回复「就按这组剪」，或告诉助手哪一镜需要改。确认后，它会给你导出 MP4。
 
-1. 选中 Skill，把一段短口播和录屏素材发给助手。如果助手读不到附件，把视频放进当前打开的项目或工作空间，再告诉它文件名。
-2. 发送下面这类请求。
+想看「只剪开头」「只交字幕」等请求怎么说，见[完整使用指南](docs/usage.md)。
 
-   > 这是我的口播视频和录屏素材。请按口播内容把录屏放到对应的地方，跳过无关操作，没有实操画面的地方加一点合适的包装。
-
-3. 打开关键帧。确认整组时，可以说「就按这组关键帧剪」。收到成片后打开 MP4 看一遍。
-
-给口播配录屏、改构图或加包装时，助手会先发关键帧，等你确认后才剪。口播默认有字幕，想跳过就说「不要加字幕」。
-
-## 装不上或导不出视频？
-
-- **Codex 装不上**：也可以点本页「Code → Download ZIP」，解压后用 Codex 打开包含 `README.md` 和 `.agents` 的那一层文件夹，再在项目聊天里选择 Skill。[Codex 官方说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
-- **助手说缺工具**：把提示发给助手，让它检查哪一项缺了。本地导出需要 FFmpeg 和 FFprobe，检查脚本需要 Python 3.11+。做字幕还需要转写工具或你提供的带时间点的字幕，以及可用字体。
-
-用自己的视频试剪时，建议另开素材文件夹。公开仓库用 Git 提交时，忽略规则会排除素材、截图等临时文件。网页手动上传时请自己核对文件清单。
+遇到问题，可以去 [GitHub Issues](https://github.com/gc8531517-sketch/chenggong-video-editing/issues) 说一下你用的客户端、发给助手的话和卡在哪一步。

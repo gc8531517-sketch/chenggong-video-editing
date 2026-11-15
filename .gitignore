@@ -3,6 +3,9 @@
 !/README.md
 !/LICENSE
 !/chenggong-video-editing-workbuddy.zip
+!/docs/
+/docs/*
+!/docs/usage.md
 !/.agents/
 /.agents/*
 !/.agents/skills/
